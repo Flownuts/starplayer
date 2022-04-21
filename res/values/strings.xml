@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">starplayer</string>
+    <string name="action_settings">Settings</string>
+    <string name="splash_A">SplashA</string>
+    <string name="mbsp_0002">mbsp_0002</string>
+    <string name="mbsp_0003">mbsp_0003</string>
+    <string name="start_up">Start</string>
+    <string name="start_down">start</string>
+    <string name="exit_up">Exit</string>
+    <string name="exit_down">exit</string>
+    <string name="mbsp_0020">mbsp_0020</string>
+    <string name="mbsp_0100">mbsp_0100</string>
+    <string name="back_V_A">BackVA</string>
+    <string name="welcome_msg">&quot;Welcome to Starplayer&quot;</string>
+    <string name="load0">load0</string>
+    <string name="load_msg">&quot;SpaceDancing&quot;</string>
+    <string name="main_msg">&quot;Now with fireworks!&quot;</string>
+</resources>

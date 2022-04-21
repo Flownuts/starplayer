@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+	>
+
+<ImageView android:id="@+id/mainMenuImage"
+    android:contentDescription="@string/back_V_A"
+    android:src="@drawable/back_v_a"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</ImageView>
+
+<RelativeLayout
+    android:id="@+id/buttons"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="horizontal" >
+    
+    <ImageButton
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:contentDescription="@string/start_up"
+        android:onClick="@string/start_down"
+        android:src="@drawable/start_up" />
+
+    <ImageButton
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:contentDescription="@string/exit_up"
+        android:onClick="@string/exit_down"
+        android:src="@drawable/exit_up" />
+
+</RelativeLayout>
+
+
+
+</RelativeLayout>
